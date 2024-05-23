@@ -1,5 +1,5 @@
 const express = require("express");
-const { createTodo, updateTodo } = require("./types"); // Corrected the typo from cretateTodo to createTodo
+const { createTodo, updateTodo } = require("./types"); 
 const app = express();
 const { todo } = require("./db");
 const cors = require("cors");
